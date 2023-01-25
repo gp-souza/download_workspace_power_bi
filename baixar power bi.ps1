@@ -27,7 +27,7 @@ foreach ($w in $ws) {
     Export-PowerBIReport -Id $r.Id -OutFile $arquivo
 
     Write-Output $arquivo "Salvo"
-
+#testes
 
   }
 }
